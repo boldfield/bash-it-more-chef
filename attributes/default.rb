@@ -3,7 +3,15 @@ default['bash-it']['install']['src']['repository'] = 'https://github.com/boldfie
 default['bash-it']['install']['src']['revision'] = 'master'
 
 default['bash-it']['user'] = nil
-default['bash-it']['theme'] = 'clean'
+# Themes worth trying out
+#   - brunton
+#   - nwinkler
+#   - powerline-multiline
+#   - rjorgenson
+#   - tonka
+#   - zork (no clock)
+#
+default['bash-it']['theme'] = 'brunton'
 default['bash-it']['git'] = 'git@github.com'
 default['bash-it']['irc'] = 'irssi'
 default['bash-it']['todo'] = 't'
