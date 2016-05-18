@@ -11,7 +11,7 @@ default['bash-it']['user'] = nil
 #   - tonka
 #   - zork (no clock)
 #
-default['bash-it']['theme'] = 'brunton'
+default['bash-it']['theme'] = 'nwinkler'
 default['bash-it']['git'] = 'git@github.com'
 default['bash-it']['irc'] = 'irssi'
 default['bash-it']['todo'] = 't'
